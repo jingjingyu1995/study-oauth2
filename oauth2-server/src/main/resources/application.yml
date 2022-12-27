@@ -1,0 +1,12 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: oauth2-service
+
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/db_test?useSSL=false&autoReconnect=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: my_test
+    password: mysql123@yjj
